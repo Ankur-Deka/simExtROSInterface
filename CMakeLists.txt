@@ -22,7 +22,8 @@ set(PKG_DEPS
     tf2_geometry_msgs
     tf2_msgs
     trajectory_msgs
-    visualization_msgs)
+    visualization_msgs
+    kinova_msgs)
 
 find_package(catkin REQUIRED COMPONENTS ${PKG_DEPS})
 
